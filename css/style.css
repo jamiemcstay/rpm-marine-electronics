@@ -16,12 +16,14 @@
 
 h1 {
     font-size: 3rem;
+    font-size: 3rem;
+    margin-bottom: 12px;
 }
 
 .text-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space elements vertically */
+
 }
 
 .contact-form {
@@ -37,11 +39,12 @@ h1 {
     margin-bottom: 1rem;
 }
 .contact-form .btn {
-    width: 100%;
+    width: auto;
 }
 .btn-left {
     width: auto;
     max-width: 200px;
+    margin-top: auto;
 }
 .hero-section p {
     margin-bottom: 1rem; /* Ensure consistent spacing for paragraphs */
