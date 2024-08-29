@@ -1,5 +1,12 @@
 
+.navbar-nav .nav-item {
+    margin-right: 5rem; /* Adjust as needed */
+}
 
+/* Ensure the last item has no right margin */
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
 
 /*------------------------------------Media Queries*/
 
