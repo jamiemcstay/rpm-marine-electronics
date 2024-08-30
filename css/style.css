@@ -1,3 +1,8 @@
+/*------------------------------------Global styles*/
+
+body {
+    font-family: inter;
+}
 
 .navbar-nav .nav-item {
     margin-right: 5rem; /* Adjust as needed */
@@ -7,6 +12,22 @@
 .navbar-nav .nav-item:last-child {
     margin-right: 0;
 }
+
+/*------------------------------------Headings*/
+
+h1, h2, h3, h4, h5 {
+    font-family: inter;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 650;
+}
+
 
 /*------------------------------------Hero section*/
 
@@ -48,6 +69,7 @@ h1 {
 .hero-section p {
     margin-bottom: 1rem;
     font-family: Roboto Serif;
+    font-we
 }
 /*------------------------------------Marine electronics section homepage*/
 
