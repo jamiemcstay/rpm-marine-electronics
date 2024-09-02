@@ -15,7 +15,7 @@ body {
 
 /*------------------------------------Headings*/
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: inter;
 }
 
@@ -28,17 +28,14 @@ h2 {
     font-weight: 650;
 }
 
+p {
+    font-family: Roboto Serif;
+}
 
 /*------------------------------------Hero section*/
 
 .hero-section {
     padding: 3rem 0;
-}
-
-h1 {
-    font-size: 3rem;
-    font-size: 3rem;
-    margin-bottom: 12px;
 }
 
 .text-content {
@@ -69,7 +66,6 @@ h1 {
 .hero-section p {
     margin-bottom: 1rem;
     font-family: Roboto Serif;
-    font-we
 }
 /*------------------------------------Marine electronics section homepage*/
 
@@ -78,11 +74,31 @@ h1 {
     color: white;
 }
 
+.mar-el-top-head h2 {
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+.mar-el-top-head p {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+
+
 .mar-el-mid div{
     padding: 12px;
     border: solid 2px white;
+    border: solid 2px white;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
 }
 
+.mar-el-mid i {
+    font-size: 2.5rem;
+}
 
 /*------------------------------------Media Queries*/
 
