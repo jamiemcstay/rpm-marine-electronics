@@ -117,11 +117,10 @@ p {
 
 .mar-el-mid div{
     border: solid 2px white;
-    width: 200px;
-    padding: 1.8rem;
-    height: auto;
     border-radius: 0.5rem;
     background-color: #17586F;
+    flex: 1 0;
+    aspect-ratio: 1 / 0.7;
 }
 
 
@@ -207,37 +206,6 @@ p {
         font-size: 1.2rem;
     }
 
-    .mar-el-mid div {
-        width: 240px;
-        height: 240px;
-    }
 }
 
-@media (min-width: 1600px) {
 
-    .mar-el-mid i {
-        font-size: 3rem;
-    }
-
-    /* .mar-el-bottom-box h5 {
-        font-size: 1.8rem;
-        letter-spacing: 0.5rem; */
-    }
-
-    /* .mar-el-bottom-text h5 {
-        font-size: 2rem;
-
-    } */
-
-    /* .mar-el-bottom-text p {
-        font-size: 1.5rem;
-    } */
-
-    .mar-el-mid > div > h5{
-        font-size: 1.5rem;
-    }
-    .mar-el-mid div {
-        width: 240px;
-        height: 240px;
-    }
-}
