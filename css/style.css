@@ -119,7 +119,6 @@ p {
     border: solid 2px white;
     border-radius: 0.5rem;
     background-color: #17586F;
-    flex: 1 0;
     aspect-ratio: 1 / 0.7;
 }
 
