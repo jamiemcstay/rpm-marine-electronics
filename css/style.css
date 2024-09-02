@@ -124,12 +124,6 @@ p {
     background-color: #17586F;
 }
 
-.square {
-    position: relative;
-    width: 100%;
-    padding-top: 100%; /* Creates the square aspect ratio */
-}
-
 
 .mar-el-mid i {
     font-size: 2.5rem;
@@ -147,43 +141,43 @@ p {
     font-family: 'Roboto Serif';
 }
 
-.mar-el-bottom-text > span > i {
+.mar-el-bottom-heading i {
     font-size: 2.5rem;
+}
+
+.mar-el-bottom-heading h4 {
+    margin-bottom: 0;
 }
 
 .mar-el-bottom-text p {
     font-weight: 150;
 }
 
-.mar-el-bottom-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 3px white;
-    width: 80%;
-    height: 80%;
-    padding: 5%;
-}
 
 .mar-el-bottom-text {
     display: flex; /* Ensures columns align horizontally */
 }
 
-.mar-el-bottom-p {
-    position: relative; /* Allows for absolute positioning of the border */
-    padding: 10px; /* Optional: Adjust padding to ensure text doesn't touch the border */
+.line-none {
+    width: 2px;
+    margin: 0 auto;
+    background-color: none;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
-/* Add vertical borders to columns */
-.mar-el-bottom-p:not(:last-child)::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 20%;
-    height: 100%;
-    width: 2px; /* Border width */
-    background-color: white; /* Border color */
-    transform: translateX(50%); /* Adjust to ensure border doesn't overlap content */
+.line-1 {
+    width: 2px;
+    margin: 0 auto;
+    background-color: white;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 
@@ -225,19 +219,19 @@ p {
         font-size: 3rem;
     }
 
-    .mar-el-bottom-box h5 {
+    /* .mar-el-bottom-box h5 {
         font-size: 1.8rem;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.5rem; */
     }
 
-    .mar-el-bottom-text h5 {
+    /* .mar-el-bottom-text h5 {
         font-size: 2rem;
 
-    }
+    } */
 
-    .mar-el-bottom-text p {
+    /* .mar-el-bottom-text p {
         font-size: 1.5rem;
-    }
+    } */
 
     .mar-el-mid > div > h5{
         font-size: 1.5rem;
