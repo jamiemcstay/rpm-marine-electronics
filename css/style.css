@@ -121,6 +121,7 @@ p {
     padding: 1.8rem;
     height: auto;
     border-radius: 0.5rem;
+    background-color: #17586F;
 }
 
 .square {
@@ -164,6 +165,27 @@ p {
     padding: 5%;
 }
 
+.mar-el-bottom-text {
+    display: flex; /* Ensures columns align horizontally */
+}
+
+.mar-el-bottom-p {
+    position: relative; /* Allows for absolute positioning of the border */
+    padding: 10px; /* Optional: Adjust padding to ensure text doesn't touch the border */
+}
+
+/* Add vertical borders to columns */
+.mar-el-bottom-p:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50%;
+    height: 100%;
+    width: 2px; /* Border width */
+    background-color: white; /* Border color */
+    transform: translateX(50%); /* Adjust to ensure border doesn't overlap content */
+}
+
 
 
 /*------------------------------------Media Queries*/
@@ -186,10 +208,6 @@ p {
 }
 
 @media (min-width: 1440px) {
-    .mar-el-bottom-text h4 {
-        font-size: 1.5rem;
-
-    }
 
     .mar-el-bottom-text p {
         font-size: 1.2rem;
@@ -202,13 +220,30 @@ p {
 }
 
 @media (min-width: 1600px) {
-    .mar-el-bottom-box {
-        width: 50%;
-        padding: 8%;
+
+    .mar-el-mid i {
+        font-size: 3rem;
     }
 
     .mar-el-bottom-box h5 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         letter-spacing: 0.5rem;
+    }
+
+    .mar-el-bottom-text h5 {
+        font-size: 2rem;
+
+    }
+
+    .mar-el-bottom-text p {
+        font-size: 1.5rem;
+    }
+
+    .mar-el-mid > div > h5{
+        font-size: 1.5rem;
+    }
+    .mar-el-mid div {
+        width: 240px;
+        height: 240px;
     }
 }
