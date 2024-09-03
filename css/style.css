@@ -76,6 +76,11 @@ p {
 
 }
 
+.mar-el-small-heading {
+    font-family: 'Inter';
+    text-transform: uppercase;
+}
+
 .mar-el-wrapper {
     position: relative;
     z-index: 1;
