@@ -148,26 +148,6 @@ p {
     justify-content: space-between;
 }
 
-/* Vertical lines */
-.mar-el-bottom-p-wrapper::before,
-.mar-el-bottom-p-wrapper::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background-color: white; /* Adjust color as needed */
-}
-
-/* Positioning the vertical lines */
-.mar-el-bottom-p-wrapper::before {
-    left: calc(33.33% - 0.5px); /* Adjusted for line width */
-}
-
-.mar-el-bottom-p-wrapper::after {
-    left: calc(66.66% - 0.5px); /* Adjusted for line width */
-}
-
 
 /*------------------------------------Media Queries*/
 
@@ -234,6 +214,26 @@ p {
     .mar-el-top-head p {
         font-size: 2.5rem;
     }
+
+    /* Vertical lines */
+.mar-el-bottom-p-wrapper::before,
+.mar-el-bottom-p-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: white; /* Adjust color as needed */
+}
+
+/* Positioning the vertical lines */
+.mar-el-bottom-p-wrapper::before {
+    left: calc(33.33% - 0.5px); /* Adjusted for line width */
+}
+
+.mar-el-bottom-p-wrapper::after {
+    left: calc(66.66% - 0.5px); /* Adjusted for line width */
+}
 
 }
 
