@@ -205,13 +205,21 @@ p {
         display: none;
     }
 
-    .mar-el-bottom-p-wrapper {
-        display: flex;
-        justify-content: center;
-    }
 
     .mar-el-mid div:not(:last-child) {
         margin-bottom: 16px;
+    }
+
+    .mar-el-bottom-heading i,
+    .mar-el-bottom-heading h4 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .mar-el-bottom-p-wrapper {
+        display: flex;
+        justify-content: center;
     }
 }
 
