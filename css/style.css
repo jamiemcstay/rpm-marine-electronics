@@ -133,54 +133,39 @@ p {
     margin-bottom: 0.5rem;
 }
 
-.mar-el-bottom-text > span {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.mar-el-bottom-text h4 {
-    font-family: 'Roboto Serif';
-}
-
-.mar-el-bottom-heading i {
-    font-size: 2.5rem;
-}
 
 .mar-el-bottom-heading h4 {
     margin-bottom: 0;
 }
 
-.mar-el-bottom-text p {
-    font-weight: 150;
+.mar-el-bottom-p-wrapper {
+    position: relative;
 }
 
-
-.mar-el-bottom-text {
-    display: flex; /* Ensures columns align horizontally */
+.mar-el-bottom-p-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-.line-none {
-    width: 2px;
-    margin: 0 auto;
-    background-color: none;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+/* Vertical lines */
+.mar-el-bottom-p-wrapper::before,
+.mar-el-bottom-p-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: white; /* Adjust color as needed */
 }
 
-.line-1 {
-    width: 2px;
-    margin: 0 auto;
-    background-color: white;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+/* Positioning the vertical lines */
+.mar-el-bottom-p-wrapper::before {
+    left: calc(33.33% - 0.5px); /* Adjusted for line width */
+}
 
+.mar-el-bottom-p-wrapper::after {
+    left: calc(66.66% - 0.5px); /* Adjusted for line width */
 }
 
 
@@ -201,22 +186,17 @@ p {
         width: 80%;
     }
 
-    .mar-el-bottom-heading {
-        display: none;
-    }
-
-
     .mar-el-mid div:not(:last-child) {
         margin-bottom: 16px;
     }
 
-    .mar-el-bottom-heading i,
     .mar-el-bottom-heading h4 {
         display: none;
     }
 }
 
 @media (max-width: 768px) {
+
     .mar-el-bottom-p-wrapper {
         display: flex;
         justify-content: center;
@@ -253,14 +233,6 @@ p {
 
     .mar-el-top-head p {
         font-size: 2.5rem;
-    }
-
-}
-
-@media (min-width: 1440px) {
-
-    .mar-el-bottom-text p {
-        font-size: 1.2rem;
     }
 
 }
