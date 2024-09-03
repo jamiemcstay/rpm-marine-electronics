@@ -136,6 +136,9 @@ p {
 
 .mar-el-bottom-heading h4 {
     margin-bottom: 0;
+    border-bottom: solid white 2px;
+    font-family: 'Roboto Serif';
+    letter-spacing: 0.8px;
 }
 
 .mar-el-bottom-p-wrapper {
@@ -146,6 +149,8 @@ p {
     position: relative;
     display: flex;
     justify-content: space-between;
+    font-weight: 200;
+    letter-spacing: 0.4px;
 }
 
 
