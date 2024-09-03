@@ -163,16 +163,17 @@ p {
     }
 
     .mar-el-mid div {
-        width: 80%;
+        width: 60%;
+        padding: 1rem;
     }
 
     .mar-el-mid div:not(:last-child) {
         margin-bottom: 16px;
     }
 
-    .mar-el-bottom-heading h4 {
+    /* .mar-el-bottom-heading h4 {
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
