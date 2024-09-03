@@ -96,6 +96,10 @@ p {
 
 }
 
+.mar-el-top-head {
+    margin-bottom: 48px;
+}
+
 .mar-el-top-head h2 {
     font-size: 3rem;
     margin-bottom: 0.2rem;
@@ -120,6 +124,7 @@ p {
     border-radius: 0.5rem;
     background-color: #17586F;
     aspect-ratio: 1 / 0.7;
+    
 }
 
 
@@ -179,8 +184,35 @@ p {
 }
 
 
-
 /*------------------------------------Media Queries*/
+
+
+@media (max-width: 576px) {
+
+    /* .mar-el-top {
+        margin-bottom: 16px;
+    } */
+
+    .mar-el-top-head {
+        margin-bottom: 16px;
+    }
+
+    .mar-el-mid {
+        margin-bottom: 16px;
+    }
+
+    .mar-el-mid div {
+        width: 80%;
+    }
+
+    .mar-el-bottom-heading {
+        display: none;
+    }
+}
+
+.mar-el-mid div:not(:last-child) {
+    margin-bottom: 16px;
+}
 
 @media (max-width: 991.98px) {
     .btn-header {
