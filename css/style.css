@@ -90,12 +90,16 @@ h1 {
 
 /*------------------------------------About us*/
 
+.about-us-section {
+    padding-bottom: 5rem;
+}
+
 .about-us-small-p {
     text-transform: uppercase;
     color: #08335B;
     letter-spacing: 2px;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 700;
 
 }
 
@@ -124,27 +128,11 @@ h1 {
     height: 100%;
 }
 
-.contact-form .form-control {
-    margin-bottom: 1rem;
-}
-.contact-form .btn {
-    width: auto;
-}
-.btn-left {
-    width: auto;
-    max-width: 200px;
-    margin-top: auto;
-}
+
 /*------------------------------------Marine electronics section homepage*/
 
-.marine-electronics-section {
-    background: url(../images/marine-electronics-section-background.png) no-repeat center / cover;
-    color: white;
-}
-
-.mar-el-wrapper {
-    position: relative;
-    z-index: 1;
+.mar-el-section h2 {
+    font-size: 2rem;
 }
 
 .mar-el-overlay {
@@ -163,63 +151,6 @@ h1 {
     pointer-events: none; /* Ensure it doesn't block interactions with other elements */
 }
 
-
-.mar-el-top-head {
-    margin-bottom: 48px;
-}
-
-.mar-el-top-head h2 {
-    font-size: 3rem;
-    margin-bottom: 0.2rem;
-    font-family: 'Roboto Serif';
-    letter-spacing: 0.2rem;
-}
-
-.mar-el-top-head p {
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-    font-weight: 200;
-    font-weight: 150;
-}
-
-.mar-el-mid {
-    margin-bottom: 5rem;
-    gap: 5%;
-}
-
-.mar-el-mid div{
-    border: solid 2px white;
-    border-radius: 0.5rem;
-    background-color: #17586F;
-    aspect-ratio: 1 / 0.7;
-    
-}
-
-
-.mar-el-mid i {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-
-.mar-el-bottom-heading h4 {
-    margin-bottom: 0;
-    border-bottom: solid white 2px;
-    font-family: 'Roboto Serif';
-    letter-spacing: 0.8px;
-}
-
-.mar-el-bottom-p-wrapper {
-    position: relative;
-}
-
-.mar-el-bottom-p-wrapper {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 200;
-    letter-spacing: 0.4px;
-}
 
 
 /*------------------------------------Media Queries*/
