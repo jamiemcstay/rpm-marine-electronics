@@ -134,6 +134,9 @@ h1 {
     align-items: center;
     color: white;
     z-index: -1;
+    background: linear-gradient(to top left, rgba(3, 117, 159, 0.4) 0%, rgba(1, 42, 57, 0.9) 100%);
+    pointer-events: none; /* Ensure it doesn't block interactions with other elements */
+}
 
 }
 
