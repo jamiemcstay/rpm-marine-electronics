@@ -131,8 +131,20 @@ h1 {
 
 /*------------------------------------Marine electronics section homepage*/
 
+.mar-el-section {
+    background-color: #002446;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .mar-el-section h2 {
     font-size: 2rem;
+
+}
+
+.mar-el-section i {
+    font-size: 3rem;
 }
 
 .mar-el-overlay {
