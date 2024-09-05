@@ -63,6 +63,32 @@ h1 {
     font-weight: 200;
 }
 
+.hero-buttons {
+    gap: 5%;
+}
+
+.hero-buttons > a {
+    padding: 0.8rem 1.5rem;
+    min-width: 180px;
+    border-radius: 5%;
+
+}
+
+.hero-buttons > a:first-of-type {
+    border: solid white 1px;
+    background-color: transparent;
+    color: white;
+}
+
+.hero-buttons > :last-of-type {
+    background-color: #44A6C3;
+    color: white;
+    border: none;
+}
+
+
+
+
 /* .contact-form {
     background-color: #f8f9fa;
     padding: 1rem;
