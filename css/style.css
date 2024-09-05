@@ -78,6 +78,7 @@ h1 {
     border: solid white 1px;
     background-color: transparent;
     color: white;
+    background-color: rgb(0 58 78 / 73%);
 }
 
 .hero-buttons > :last-of-type {
@@ -138,7 +139,6 @@ h1 {
     pointer-events: none; /* Ensure it doesn't block interactions with other elements */
 }
 
-}
 
 .mar-el-top-head {
     margin-bottom: 48px;
@@ -213,6 +213,19 @@ h1 {
 
     .hero-section p:first-of-type {
         font-size: 0.8rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons > a {
+        width: 80%;
+        margin: 0 auto; 
+    }
+
+    .hero-buttons > a:first-of-type {
+        margin-bottom: 16px;
     }
 
     .mar-el-top-head {
