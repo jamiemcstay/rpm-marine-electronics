@@ -186,6 +186,9 @@ h1 {
 .mar-el-button {
     background-color: #44A6C3;
     color: white;
+    width: 100%;
+    border: none;
+    padding: 0.8rem 1.5rem;
 }
 
 
