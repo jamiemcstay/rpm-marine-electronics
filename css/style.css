@@ -163,6 +163,32 @@ h1 {
 
 }
 
+.mar-el-left {
+    border-bottom: solid white 2px;
+}
+
+.mar-el-left-big-p {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.mar-el-left-small-p {
+    font-size: 0.8rem;
+    margin-left: 8px;
+    font-weight: 150;
+    letter-spacing: 2px;
+}
+
+.mar-el-left i {
+    font-size: 1.8rem;
+}
+
+.mar-el-button {
+    background-color: #44A6C3;
+    color: white;
+}
+
+
 .mar-el-overlay {
     position: absolute;
     top: 0;
