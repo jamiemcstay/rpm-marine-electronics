@@ -138,13 +138,29 @@ h1 {
     padding-bottom: 80px;
 }
 
+.icon-wrap {
+    width: auto;
+    margin-right: 8px;
+}
+
+.mar-el-right-row-1 {
+    margin-bottom: 60px;
+}
+
 .mar-el-section h2 {
     font-size: 2rem;
 
 }
 
 .mar-el-section i {
-    font-size: 3rem;
+    font-size: 2.8rem
+}
+
+.mar-el-right p {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: 200;
+
 }
 
 .mar-el-overlay {
