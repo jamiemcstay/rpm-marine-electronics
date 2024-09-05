@@ -131,12 +131,18 @@ h1 {
 
 /*------------------------------------Marine electronics section homepage*/
 
-.mar-el-section {
-    background-color: #002446;
+.mar-el-container {
+    background-image: url('../images/mar-el-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     padding-top: 80px;
     padding-bottom: 80px;
+    position: relative;
 }
+
+
 
 .icon-wrap {
     width: auto;
