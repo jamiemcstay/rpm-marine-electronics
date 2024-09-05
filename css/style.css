@@ -1,7 +1,7 @@
 /*------------------------------------Global styles*/
 
 body {
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar-nav .nav-item {
@@ -16,11 +16,11 @@ body {
 /*------------------------------------Headings*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: inter;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -28,30 +28,27 @@ h2 {
     font-weight: 650;
 }
 
-p {
-    font-family: Roboto Serif;
-}
 
 /*------------------------------------Hero section*/
 
 .hero-section {
-    padding: 3rem 0;
+    min-height: 60vh;
 }
 
-.text-content {
-    display: flex;
-    flex-direction: column;
-
+h1 {
+    text-transform: uppercase;
 }
 
-.contact-form {
+/* .contact-form {
     background-color: #f8f9fa;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: auto;
-}
+} */
+
+
 .contact-form .form-control {
     margin-bottom: 1rem;
 }
@@ -63,22 +60,11 @@ p {
     max-width: 200px;
     margin-top: auto;
 }
-.hero-section p {
-    margin-bottom: 1rem;
-    font-family: Roboto Serif;
-}
 /*------------------------------------Marine electronics section homepage*/
 
 .marine-electronics-section {
     background: url(../images/marine-electronics-section-background.png) no-repeat center / cover;
     color: white;
-    /* z-index: 2; */
-
-}
-
-.mar-el-small-heading {
-    font-family: 'Inter';
-    text-transform: uppercase;
 }
 
 .mar-el-wrapper {
