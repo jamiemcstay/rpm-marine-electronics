@@ -138,8 +138,8 @@ h1 {
     background-position: center;
     background-size: cover;
     color: white;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     position: relative;
     border-top-left-radius: 200px;
 }
@@ -246,6 +246,12 @@ a {
 .footer-logo > h6 {
     font-weight: 350;
     letter-spacing: 1.8px;
+}
+
+footer p,
+footer a,
+footer li {
+    font-weight: 300;
 }
 
 /*------------------------------------Media Queries*/
