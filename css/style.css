@@ -225,8 +225,15 @@ h1 {
 
 /*------------------------------------Footer*/
 
+#btn-back-to-top {
+    border-radius: 50%;
+    background-color:#44A6C3;
+    border: none;
+}
+
 footer {
     background-color: #002446;
+    position: relative;
 }
 
 
@@ -252,6 +259,12 @@ footer p,
 footer a,
 footer li {
     font-weight: 300;
+}
+
+footer h5 {
+    letter-spacing: 1.5px;
+    margin-bottom: 3rem;
+    color: #b2b1b1;
 }
 
 /*------------------------------------Media Queries*/
