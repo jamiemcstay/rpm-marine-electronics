@@ -92,6 +92,7 @@ h1 {
 
 .about-us-section {
     padding-bottom: 5rem;
+    padding-top: 60px;
 }
 
 .about-us-small-p {
@@ -247,43 +248,32 @@ h1 {
         margin-bottom: 16px;
     }
 
-    .mar-el-top-head {
-        margin-bottom: 16px;
+    .about-us-image {
+        display: none;
     }
 
-    .mar-el-mid {
-        margin-bottom: 16px;
+    .mar-el-left {
+        text-align: center;
+        border-bottom: none;
     }
 
-    .mar-el-mid div {
-        width: 60%;
-        padding: 1rem;
-    }
-
-    .mar-el-mid div:not(:last-child) {
-        margin-bottom: 16px;
+    .mar-el-right-row-1 {
+        margin-bottom: 0;
     }
 
 }
 
 @media (max-width: 768px) {
 
-    .mar-el-bottom-p-wrapper {
-        display: flex;
-        justify-content: center;
+    .mar-el-left {
+        border-bottom: none;
+    }
+
+    .mar-el-container {
+        border-top-left-radius: 80px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-    .mar-el-mid {
-        margin-bottom: 24px; 
-    }
-
-    .mar-el-mid div {
-        margin-bottom: 32px;
-    }
-}
 
 
 @media (max-width: 991.98px) {
@@ -294,37 +284,7 @@ h1 {
 
 @media (min-width: 992px) {
 
-    .mar-el-mid div {
-        aspect-ratio: 1/1;
-    }
 
-    .mar-el-top-head h2 {
-        font-size: 3.5rem;
-    }
-
-    .mar-el-top-head p {
-        font-size: 2.5rem;
-    }
-
-    /* Vertical lines */
-.mar-el-bottom-p-wrapper::before,
-.mar-el-bottom-p-wrapper::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background-color: white; /* Adjust color as needed */
-}
-
-/* Positioning the vertical lines */
-.mar-el-bottom-p-wrapper::before {
-    left: calc(33.33% - 0.5px); /* Adjusted for line width */
-}
-
-.mar-el-bottom-p-wrapper::after {
-    left: calc(66.66% - 0.5px); /* Adjusted for line width */
-}
 
 }
 
