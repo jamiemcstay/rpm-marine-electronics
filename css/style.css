@@ -171,9 +171,6 @@ h1 {
 
 }
 
-.mar-el-left {
-    border-bottom: solid white 2px;
-}
 
 .mar-el-left-big-p {
     font-weight: 200;
@@ -263,6 +260,17 @@ h1 {
 
 }
 
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .mar-el-left {
+        margin-bottom: 48px;
+    }
+
+    .mar-el-right-row-2 {
+        margin-bottom: 48px;
+    }
+}
+
 @media (max-width: 768px) {
 
     .mar-el-left {
@@ -284,8 +292,12 @@ h1 {
 
 @media (min-width: 992px) {
 
+}
 
-
+@media (min-width: 1200px) {
+    .mar-el-left {
+        border-bottom: solid white 2px;
+    }
 }
 
 
