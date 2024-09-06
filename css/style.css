@@ -25,6 +25,13 @@ body {
     height: 100%;
 }
 
+.header-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #44A6C3;
+    color: white;
+    border: none;
+}
+
 /*------------------------------------Headings*/
 
 h1, h2, h3, h4, h5, h6 {
