@@ -54,7 +54,7 @@ h2 {
 .hero-section {
     height: auto;
     padding: 5rem 0;
-    background-image: url('./images/hero-image.webp');
+    background-image: url('../images/hero-image.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
