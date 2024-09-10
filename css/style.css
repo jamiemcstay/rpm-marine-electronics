@@ -355,7 +355,27 @@ footer h5 {
     border: 0;
 }
 
+.why-choose {
+    padding-top: 3rem; 
+    padding-bottom: 3rem;
+}
 
+.why-choose p {
+    color: black;
+}
+
+
+.why-choose h3 {
+    font-size: 2.5rem;
+}
+
+.why-choose p {
+    font-weight: 400;
+}
+
+.why-choose ul {
+    font-weight: 600;
+}
 /*------------------------------------Media Queries*/
 
 
