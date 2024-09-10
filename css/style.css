@@ -369,8 +369,9 @@ footer h5 {
 
 
 .why-choose h3 {
-    font-size: 2.5rem;
-    color: #08335B
+    font-size: 3rem;
+    color: #08335B;
+    font-weight: 600;
 }
 
 .why-choose p {
