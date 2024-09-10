@@ -288,7 +288,7 @@ footer h5 {
 
 .services-top {
     padding: 3rem 0;
-    background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
+    background: linear-gradient(135deg, #002446 0%, #ffffff 100%);
 }
 
 
@@ -297,14 +297,22 @@ footer h5 {
     flex-direction: column;
 }
 
-.text-content h1, p {
+.text-content h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);    
+}
+
+.text-content h2, p {
     color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .text-content p {
     font-weight: 350;
 }
+
+/* .text-content a {
+    border: solid white;
+    background-color: #ffffffb5;
+} */
 
 .contact-form {
     background-color: white;
@@ -315,15 +323,20 @@ footer h5 {
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px #002446;
-    background-color: transparent;
+    color: black;
+
 }
 
 .contact-form p {
-    font-weight: 600;
+    font-weight: 500;
+    color: black;
 }
 
 .contact-form .form-control {
     margin-bottom: 1rem;
+    box-shadow: 0px 1px 1px #002446;
+    background-color: #00244621;
+    
 }
 .contact-form .btn {
     width: auto;
