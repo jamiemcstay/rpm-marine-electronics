@@ -292,11 +292,18 @@ footer h5 {
 }
 
 
-
 .text-content {
     display: flex;
     flex-direction: column;
+}
 
+.text-content h1, p {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-content p {
+    font-weight: 350;
 }
 
 .contact-form {
@@ -308,6 +315,7 @@ footer h5 {
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px #002446;
+    background-color: transparent;
 }
 
 .contact-form p {
