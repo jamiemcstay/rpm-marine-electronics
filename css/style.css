@@ -288,7 +288,7 @@ footer h5 {
 
 .services-top {
     padding: 3rem 0;
-    background: linear-gradient(135deg, #002446 0%, #ffffff 100%);
+    background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
 }
 
 
@@ -309,10 +309,6 @@ footer h5 {
     font-weight: 350;
 }
 
-/* .text-content a {
-    border: solid white;
-    background-color: #ffffffb5;
-} */
 
 .contact-form {
     background-color: white;
