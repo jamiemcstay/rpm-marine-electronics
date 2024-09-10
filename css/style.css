@@ -299,7 +299,7 @@ footer h5 {
 
 .services-h2 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);    
-    font-size: 3.5rem;
+    font-weight: 900;
 }
 
 .services-h2, 
@@ -370,6 +370,7 @@ footer h5 {
 
 .why-choose h3 {
     font-size: 2.5rem;
+    color: #08335B
 }
 
 .why-choose p {
@@ -465,6 +466,12 @@ footer h5 {
 @media (max-width: 991.98px) {
     .btn-header {
         display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .services-h2 {
+        font-size: 3.5rem;
     }
 }
 
