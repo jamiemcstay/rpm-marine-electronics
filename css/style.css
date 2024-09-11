@@ -408,7 +408,7 @@ footer h5 {
     height: 100%;
     z-index: -1; 
     background-color: blue;
-    /* border-radius: 100% 0% 70% 30% / 100% 100% 0% 0%;  */
+
 }
 
 .our-services-main {
@@ -444,15 +444,19 @@ footer h5 {
     font-weight: 350;
 }
 
-/* .services-img-wrap {
-    width: auto;
+.services-img-wrap {
+    width: 100%;
     height: auto;
-} */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
 
-/* .services-img-wrap img {
+.services-img-wrap img {
     width: 100%;
     height: 100%;
-} */
+    display: flex;
+}
 
 /*------------------------------------Media Queries*/
 
