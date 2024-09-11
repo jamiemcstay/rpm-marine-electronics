@@ -13,6 +13,16 @@ body {
     margin-right: 0;
 }
 
+/*------------------------------Custom styles*/
+
+.custom-padding-0 {
+    padding-left: 0px;
+}
+
+.custom-padding-16 {
+    padding-left: 16px;
+}
+
 /*------------------------------------Header*/
 
 .header-logo {
