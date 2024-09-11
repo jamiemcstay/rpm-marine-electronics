@@ -395,10 +395,36 @@ footer h5 {
 
 /*---------------------------------Our Services section*/
 
+/* .gradient-icon {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+} */
+
+.curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
 .our-services-main {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    position: relative;
+    height: auto;
+    background-image: url('../images/our-services-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
+
+
 
 .our-services-main h3 {
     font-size: 2.5rem;
@@ -412,19 +438,24 @@ footer h5 {
     font-size: 48px;
 }
 
+.our-services-main h5 {
+    padding-top: 10px;
+    margin-bottom: 4px;
+}
+
 .our-services-main p:first-of-type {
     font-weight: 350;
 }
 
-.services-img-wrap {
+/* .services-img-wrap {
     width: auto;
     height: auto;
-}
+} */
 
-.services-img-wrap img {
+/* .services-img-wrap img {
     width: 100%;
     height: 100%;
-}
+} */
 
 /*------------------------------------Media Queries*/
 
