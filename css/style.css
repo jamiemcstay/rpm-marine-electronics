@@ -299,6 +299,9 @@ footer h5 {
 .services-top {
     padding: 3rem 0;
     background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
+    overflow: hidden;
+    position: relative;
+    height: auto;
 }
 
 
@@ -367,7 +370,7 @@ footer h5 {
     border: 0;
 }
 
-.why-choose {
+/* .why-choose {
     padding-top: 3rem; 
     padding-bottom: 3rem;
     display: none;
@@ -391,25 +394,21 @@ footer h5 {
 
 .why-choose ul {
     font-weight: 600;
-}
+} */
 
 /*---------------------------------Our Services section*/
 
-/* .gradient-icon {
-    background: linear-gradient(45deg, #ff6b6b, #f06595);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
-} */
-
-.curve {
+.curve-div {
     position: absolute;
     bottom: 0;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     z-index: -1; 
+    background-color: blue;
+    /* border-radius: 100% 0% 70% 30% / 100% 100% 0% 0%;  */
 }
 
 .our-services-main {
@@ -417,12 +416,10 @@ footer h5 {
     padding-bottom: 3rem;
     position: relative;
     height: auto;
-    background-image: url('../images/our-services-background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    overflow: hidden;
 }
+
+
 
 
 
