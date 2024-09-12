@@ -457,13 +457,15 @@ footer h5 {
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
+    background-color: #002446;
     opacity: 0.8;
 }
 
 .our-services-heading-row p {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    font-family: 'Raleway';
 }
 
 .our-services-heading-button i {
@@ -479,7 +481,7 @@ footer h5 {
 
 .phone-number-text {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 750;
     letter-spacing: 1px; 
 }
 
