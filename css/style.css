@@ -439,7 +439,7 @@ footer h5 {
 
 .our-services-heading-row {
     position: relative;
-    background-image: url('../images/our-services-heading-row.jpg'); /* Replace with your image URL */
+    background-image: url('../images/our-services-heading-row.png'); /* Replace with your image URL */
     background-size: cover; /* Cover the entire row */
     background-position: center; /* Center the image */
     background-attachment: fixed; /* Make the background fixed */
