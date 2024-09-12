@@ -302,6 +302,7 @@ footer h5 {
     overflow: hidden;
     position: relative;
     height: auto;
+    display: none;
 }
 
 
@@ -421,11 +422,10 @@ footer h5 {
 
 
 .our-services-main h3 {
-    font-size: 2rem;
-    color:#00587a;
-    font-weight: 800; 
+    font-size: 2.5rem;
+    font-weight: 600;
     letter-spacing: 1px;
-    text-transform: uppercase;
+
 }
 
 .our-services-main i {
@@ -437,10 +437,50 @@ footer h5 {
     margin-bottom: 4px;
 }
 
+.our-services-heading-row {
+    position: relative;
+    background-image: url('../images/our-services-heading-row.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire row */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background fixed */
+    color: white;
+    z-index: 2;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: auto;
+}
+
+.our-services-heading-row-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
+    opacity: 0.8;
+}
+
 .our-services-heading-row p {
-    font-weight: 350;
-    font-weight: 450;
-    font-size: 1.3rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.our-services-heading-button i {
+    font-size: 16px;
+    padding: 6px;
+}
+
+.our-services-heading-button {
+    width: fit-content;
+    background-color: #44A6C3;
+    border: none;
+}
+
+.phone-number-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px; 
 }
 
 .services-img-wrap {
