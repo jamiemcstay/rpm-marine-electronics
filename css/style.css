@@ -412,7 +412,6 @@ footer h5 {
 }
 
 .our-services-main {
-    padding-top: 3rem;
     padding-bottom: 3rem;
     position: relative;
     height: auto;
@@ -421,10 +420,8 @@ footer h5 {
 
 
 
-
-
 .our-services-main h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:#00587a;
     font-weight: 800; 
     letter-spacing: 1px;
@@ -440,8 +437,10 @@ footer h5 {
     margin-bottom: 4px;
 }
 
-.our-services-main p:first-of-type {
+.our-services-heading-row p {
     font-weight: 350;
+    font-weight: 450;
+    font-size: 1.3rem;
 }
 
 .services-img-wrap {
