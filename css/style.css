@@ -473,7 +473,8 @@ footer h5 {
     font-family: 'Raleway';
 }
 
-.our-services-heading-button i {
+.our-services-heading-button i,
+.services-button-long i {
     font-size: 16px;
     padding: 6px;
 }
@@ -481,6 +482,13 @@ footer h5 {
 .our-services-heading-button {
     width: fit-content;
     background-color: #44A6C3;
+    border: none;
+}
+
+.services-button-long {
+    background-color: #44A6C3;
+    color: white; 
+    width: 45%;
     border: none;
 }
 
@@ -580,12 +588,22 @@ footer h5 {
     .btn-header {
         display: none;
     }
+
+    .mx-auto-up-to-md {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 992px) {
     .services-h2 {
         font-size: 3.3rem;
     }
+
+    .mx-auto-up-to-md {
+        margin-left: 0;
+        margin-right: 0;
+      }
 }
 
 
