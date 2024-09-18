@@ -138,6 +138,11 @@ h2 {
     font-weight: 500;
 }
 
+
+.services-home-banner-buttons {
+    gap: 5%;
+}
+
 /*------------------------------------Marine electronics section homepage*/
 
 /* .mar-el-container {
