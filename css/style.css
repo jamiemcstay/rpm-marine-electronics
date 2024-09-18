@@ -474,7 +474,8 @@ footer h5 {
 }
 
 .our-services-heading-button i,
-.services-button-long i {
+.services-button-long i,
+.services-banner i {
     font-size: 16px;
     padding: 6px;
 }
@@ -511,6 +512,27 @@ footer h5 {
     height: 100%;
     display: flex;
 }
+
+.services-banner-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #44A6C3;
+    color: white;
+    border: none;
+    width: auto;
+}
+
+.services-banner {
+    background-color: #002446;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 1%;
+}
+
+.services-banner p {
+    font-weight: 750;
+}
+
 
 /*------------------------------------Media Queries*/
 
