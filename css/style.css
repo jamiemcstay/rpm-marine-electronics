@@ -129,6 +129,9 @@ h2 {
 
 /*------------------------------------About us*/
 
+.about-us-section {
+    padding-bottom: 48px;
+}
 
 .about-us-section h3 {
     color: #0391a8;
