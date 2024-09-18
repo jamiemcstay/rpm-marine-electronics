@@ -303,13 +303,13 @@ footer h5 {
 
 /*-----------------------------------Our Services*/
 
-.services-top {
+.contact-us-section {
     padding: 3rem 0;
     background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
     overflow: hidden;
     position: relative;
     height: auto;
-    display: none;
+    /* display: none; */
 }
 
 
