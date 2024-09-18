@@ -64,7 +64,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
 /*------------------------------------Hero section*/
 
 .hero-section-heading-row {
@@ -131,11 +130,14 @@ h2 {
 /*------------------------------------About us*/
 
 
-
+.about-us-section h3 {
+    color: #0391a8;
+    font-weight: 500;
+}
 
 /*------------------------------------Marine electronics section homepage*/
 
-.mar-el-container {
+/* .mar-el-container {
     background-image: url('../images/mar-el-background.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -212,7 +214,7 @@ h2 {
     z-index: -1;
     background: linear-gradient(to top left, rgba(3, 117, 159, 0.4) 0%, #002446 100%);
     pointer-events: none;
-}
+} */
 
 .home-page-bottom-image {
     background-image: url(../images/home-page-bottom-image.jpeg);
