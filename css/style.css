@@ -27,6 +27,8 @@ body {
     line-height: 25.6px;
  }
 
+
+
 /*------------------------------------Header*/
 
 .header-logo {
@@ -513,12 +515,17 @@ footer h5 {
     display: flex;
 }
 
-.services-banner-button {
-    padding: 0.8rem 1.5rem;
+.services-row i {
+    font-size: 64px;
+    color:#002446;
+}
+
+.services-banner a {
+    padding: 0.8rem 0.8rem;
     background-color: #44A6C3;
     color: white;
     border: none;
-    width: auto;
+    width: fit-content;
 }
 
 .services-banner {
@@ -602,6 +609,10 @@ footer h5 {
 
     .mar-el-container {
         border-top-left-radius: 80px;
+    }
+
+    .services-banner a {
+        margin: 0 auto;
     }
 }
 
