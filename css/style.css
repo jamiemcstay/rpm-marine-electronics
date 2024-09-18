@@ -32,7 +32,7 @@ body {
 /*------------------------------------Header*/
 
 .header-logo {
-    width: 250px;
+    width: 220px;
     height: auto
 }
 
@@ -303,15 +303,6 @@ footer h5 {
 
 /*-----------------------------------Our Services*/
 
-.contact-us-section {
-    padding: 3rem 0;
-    background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
-    overflow: hidden;
-    position: relative;
-    height: auto;
-    /* display: none; */
-}
-
 
 .text-content {
     display: flex;
@@ -323,8 +314,7 @@ footer h5 {
     font-weight: 900;
 }
 
-.services-h2, 
-.text-content p {
+.services-h2 {
     color: white;
 }
 
@@ -332,6 +322,16 @@ footer h5 {
     font-weight: 350;
 } */
 
+/*---------------------------------------contact us*/
+
+.contact-us-section {
+    padding: 3rem 0;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    padding-left: 16px; 
+    color: black;
+}
 
 .contact-form {
     background-color: white;
@@ -342,8 +342,13 @@ footer h5 {
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px #002446;
-    color: black;
+    color: white;
+    background: linear-gradient(135deg, #002446, #00587a, #00a6c1);
 
+}
+
+.contact-form input {
+    background-color: white;
 }
 
 .contact-form p {
@@ -354,7 +359,6 @@ footer h5 {
 .contact-form .form-control {
     margin-bottom: 1rem;
     box-shadow: 0px 1px 1px #002446;
-    background-color: #00244621;
     
 }
 .contact-form .btn {
@@ -544,6 +548,10 @@ footer h5 {
 }
 
 /*------------------------------------Contact us*/
+
+.contact-us-section h3 {
+    color:#0391a8;  
+}
 
 .message-form-group {
     width: 99%;
