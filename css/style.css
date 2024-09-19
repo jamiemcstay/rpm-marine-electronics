@@ -128,6 +128,19 @@ h2 {
     border: none;
 }
 
+/* .service-homepage p {
+    height: 127px;
+} */
+
+.service-homepage a {
+    padding: 0.8rem 1.5rem;
+    background-color: #44A6C3;
+    color: white;
+    border: none;
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
 
 /*------------------------------------About us*/
 
