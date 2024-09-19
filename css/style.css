@@ -128,9 +128,10 @@ h2 {
     border: none;
 }
 
-/* .service-homepage p {
-    height: 127px;
-} */
+.service-homepage {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .service-homepage a {
     padding: 0.8rem 1.5rem;
