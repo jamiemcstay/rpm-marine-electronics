@@ -27,7 +27,17 @@ body {
     line-height: 25.6px;
  }
 
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
 
+.inter-light {
+    font-weight: 300;
+}
+
+.inter-super-light {
+    font-weight: 250;
+}
 
 /*------------------------------------Header*/
 
@@ -578,6 +588,15 @@ footer h5 {
 
     .hero-buttons a:first-of-type{
         margin-bottom: 20px;
+    }
+
+    .services-button-long:first-of-type {
+        margin-bottom: 16px;
+    }
+
+
+    .services-button-long {
+        width: 100%;
     }
 
 }
