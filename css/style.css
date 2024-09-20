@@ -39,6 +39,10 @@ body {
     font-weight: 250;
 }
 
+.sm-letter-space {
+    letter-spacing: 1.1px;
+}
+
 /*------------------------------------Header*/
 
 .header-logo {
@@ -56,6 +60,13 @@ body {
     background-color: #44A6C3;
     color: white;
     border: none;
+}
+
+.nav-item a {
+    font-size: 1.1rem;
+    font-weight: 55 0;
+    letter-spacing: 1.5px;
+    color: black;
 }
 
 /*------------------------------------Headings*/
