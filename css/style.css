@@ -83,6 +83,10 @@ h2 {
     font-size: 2rem;
 }
 
+/*------------------------------------Buttons*/
+
+
+
 /*------------------------------------Hero section*/
 
 .hero-section {
@@ -90,7 +94,7 @@ h2 {
 }
 
 .hero-section-heading-row {
-    background-image: url('../images/hero-image.webp');
+    background-image: url('../images/hero-test.png');
 }
 
 
@@ -143,11 +147,6 @@ h2 {
     background-color: rgb(0 58 78 / 73%);
 }
 
-/* .hero-buttons > :last-of-type {
-    background-color: #44A6C3;
-    color: white;
-    border: none;
-} */
 
 .service-homepage {
     padding-top: 60px;
@@ -178,7 +177,11 @@ h2 {
 
 .contact-form-home .btn {
     width: auto;
+    padding: 0.5rem 1rem;
+    background-color: #44A6C3;
+    border: 0;
 }
+
 
 /*------------------------------------About us*/
 
@@ -196,96 +199,7 @@ h2 {
     gap: 5%;
 }
 
-/*------------------------------------Marine electronics section homepage*/
 
-/* .mar-el-container {
-    background-image: url('../images/mar-el-background.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    position: relative;
-    border-top-left-radius: 200px;
-}
-
-.icon-wrap {
-    width: auto;
-    margin-right: 8px;
-}
-
-.mar-el-right-row-1 {
-    margin-bottom: 60px;
-}
-
-.mar-el-section h2 {
-    font-size: 2rem;
-
-}
-
-.mar-el-section i {
-    font-size: 2.8rem
-}
-
-.mar-el-right p {
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    font-weight: 200;
-
-}
-
-
-.mar-el-left-big-p {
-    font-weight: 200;
-    letter-spacing: 2px;
-}
-
-.mar-el-left-small-p {
-    font-size: 0.8rem;
-    margin-left: 8px;
-    font-weight: 150;
-    letter-spacing: 2px;
-}
-
-.mar-el-left i {
-    font-size: 1.8rem;
-}
-
-.mar-el-button {
-    background-color: #44A6C3;
-    color: white;
-    width: 100%;
-    border: none;
-    padding: 0.8rem 1.5rem;
-}
-
-
-.mar-el-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0 58 78 / 73%); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    z-index: -1;
-    background: linear-gradient(to top left, rgba(3, 117, 159, 0.4) 0%, #002446 100%);
-    pointer-events: none;
-} */
-
-.home-page-bottom-image {
-    background-image: url(../images/home-page-bottom-image.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 100%;
-    height: 80vh;
-}
 
 /*------------------------------------Footer*/
 
