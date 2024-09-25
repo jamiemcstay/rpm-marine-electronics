@@ -78,7 +78,6 @@ body {
     color: black; /* change to black on hover */
   }
   
-  /* Optional: Bold the active page (Home in your case) */
   .navbar-nav .nav-link.active {
     font-weight: bold;
   }
@@ -514,10 +513,21 @@ footer h5 {
     color:#002446;
 }
 
+.text-content a {
+    color: black;
+}
 
-/* .message-form-group {
-    width: 95%;
-} */
+.contact-icon-mail {
+    margin-right: 5px;
+}
+
+.text-content-text {
+    font-weight: 400;
+}
+
+.text-content a:hover {
+    font-weight: 500;
+}
 
 /*------------------------------------Media Queries*/
 
