@@ -434,7 +434,6 @@ footer h5 {
 
 .our-services-heading-row p,
 .contact-big-p {
-    font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.3;
     font-family: 'Raleway';
@@ -536,6 +535,11 @@ footer h5 {
 .text-content a:hover {
     font-weight: 500;
     cursor: pointer;
+}
+
+.contact-p {
+    font-size: 1.3rem;
+    font-weight: 350;
 }
 
 /*------------------------------------Media Queries*/
