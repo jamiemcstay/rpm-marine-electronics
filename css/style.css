@@ -527,6 +527,7 @@ footer h5 {
 
 .text-content a:hover {
     font-weight: 500;
+    cursor: pointer;
 }
 
 /*------------------------------------Media Queries*/
