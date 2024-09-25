@@ -82,6 +82,21 @@ body {
     font-weight: bold;
   }
 
+  .navbar-toggler {
+    border: none; /* Remove border */
+    background-color: transparent; /* Remove background color */
+    padding: 0; /* Remove padding */
+}
+
+/* Style the three bars */
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 30px; /* Width of the bars */
+    height: 21px; /* Total height of the bars */
+    position: relative;
+    background-color: transparent; /* Remove default background */
+}
+
 /*------------------------------------Headings*/
 
 h1, h2, h3, h4, h5, h6 {
