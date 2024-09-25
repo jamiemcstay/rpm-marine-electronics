@@ -144,6 +144,10 @@ h2 {
     opacity: 0.7;
 }
 
+.hero-p {
+    font-weight: 500; 
+}
+
 .hero-buttons {
     gap: 5%;
 }
@@ -214,7 +218,9 @@ h2 {
     gap: 5%;
 }
 
-
+.contact-form-home h3 {
+    color: #0391a8;
+}
 
 /*------------------------------------Footer*/
 
@@ -456,7 +462,7 @@ footer h5 {
 
 .phone-number-text {
     font-size: 1.2rem;
-    font-weight: 750;
+    font-weight: 450;
     letter-spacing: 1px; 
 }
 
@@ -571,6 +577,11 @@ footer h5 {
 
     .services-button-long {
         width: 100%;
+    }
+
+    .hero-section-heading-row, .our-services-heading-row {
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
 }
