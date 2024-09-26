@@ -88,51 +88,24 @@ body {
     padding: 0; 
 }
 
-/* .navbar-toggler-icon {
-    display: inline-block;
-    width: 30px; 
-    height: 21px; 
-    position: relative;
-    background-color: transparent; 
-} */
+    /* Remove the default background image */
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 40px;
+        height: 100%;
+        position: relative;
+        background-color: transparent;
+        background-image: none;
+    }
 
-/* Remove the default background image */
-.navbar-toggler-icon {
-    background-image: none;
-    display: inline-block;
-    position: relative;
-    width: 30px; /* Width of the icon */
-    height: 24px; /* Adjust height if necessary */
-}
-
-/* Create the thicker bars */
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after,
-.navbar-toggler-icon span {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 4px; /* Thickness of the bars */
-    background-color: #003366; /* Dark blue color */
-    position: absolute;
-    left: 0;
-    transition: all 0.3s ease;
-}
-
-/* Position the bars */
-.navbar-toggler-icon::before {
-    top: 0; /* Top bar */
-}
-
-.navbar-toggler-icon::after {
-    bottom: 0; /* Bottom bar */
-}
-
-.navbar-toggler-icon span {
-    top: 50%; /* Middle bar */
-    transform: translateY(-50%);
-}
-
+    /* Style for the three bars */
+    .navbar-toggler-icon div {
+        width: 100%;
+        height: 5px; /* Thickness of each bar */
+        background-color: #003366; /* Dark blue color for the bars */
+        margin: 8px 0; /* Space between the bars */
+        border-radius: 0.1px;
+    }
 /*------------------------------------Headings*/
 
 h1, h2, h3, h4, h5, h6 {
