@@ -101,10 +101,15 @@ body {
     /* Style for the three bars */
     .navbar-toggler-icon div {
         width: 100%;
-        height: 5px; /* Thickness of each bar */
-        background-color: #003366; /* Dark blue color for the bars */
-        margin: 8px 0; /* Space between the bars */
-        border-radius: 0.1px;
+        height: 5px;
+        background-color: #002446;
+        margin: 8px 0;
+        border-radius: 10px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none; /* Disable the outline */
+        box-shadow: none; /* Ensure no shadow is applied either */
     }
 /*------------------------------------Headings*/
 
@@ -133,7 +138,8 @@ h2 {
 }
 
 .hero-section-heading-row {
-    background-image: url('../images/test-hero.png');
+    background-image: url('../images/our-services-heading-row.png'); /* Replace with your image URL */
+
 }
 
 
@@ -401,7 +407,8 @@ footer h5 {
 /*---------------------------------Our Services section*/
 
 .our-services-heading-row {
-    background-image: url('../images/our-services-heading-row.png'); /* Replace with your image URL */
+    background-image: url('../images/test-hero.png');
+    
 }
 
 .curve-div {
