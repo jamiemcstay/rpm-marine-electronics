@@ -205,31 +205,35 @@
                         <!-- Name Field -->
                         <div class="form-group col-md-4">
                             <label for="inputName">Name</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                            <input type="text" class="form-control" id="inputName" placeholder="Your Name" 
+                                   pattern="[A-Za-z\s]+" title="Please enter a valid name (letters and spaces only)" required>
                         </div>
                         <!-- Email Field -->
                         <div class="form-group col-md-4">
                             <label for="inputEmail">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Your Email" 
+                                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                                   title="Please enter a valid email address (e.g., example@domain.com)" required>
                         </div>
                         <!-- Phone Field -->
                         <div class="form-group col-md-4">
                             <label for="inputPhone">Phone</label>
-                            <input type="text" class="form-control" id="inputPhone" placeholder="Your Phone">
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="Your Phone" 
+                                   pattern="\d+" title="Please enter a valid phone number (numbers only)" required>
                         </div>
                     </div>
-
+                
                     <div class="form-row d-flex justify-content-center">
                         <!-- Message Field -->
                         <div class="form-group message-form-group col-md-12">
                             <label for="inputMessage">Message</label>
-                            <textarea class="form-control" id="inputMessage" rows="4"
-                                placeholder="Your Message"></textarea>
+                            <textarea class="form-control" id="inputMessage" rows="4" 
+                                      placeholder="Your Message" required></textarea>
                         </div>
                     </div>
-
+                
                     <!-- Send Button -->
-                     <div class="form-row">
+                    <div class="form-row">
                         <div class="col-md-4">
                             <button type="submit" class="btn btn-primary btn-block ml-5 phone-number-text">Send</button>
                         </div>
@@ -320,15 +324,6 @@
 
                 <!--Grid row-->
             </div>
-            <!-- <div class="row d-flex justify-content-end">
-                <div class="col-md-2">
-                    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-                        <i class="fas fa-arrow-up"></i>
-                    </button>
-                </div>
-            </div> -->
-
-            <!-- Grid container -->
         </div>
 
 
